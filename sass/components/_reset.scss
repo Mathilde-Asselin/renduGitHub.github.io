@@ -1,0 +1,290 @@
+@import "../helpers/variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//- - - - Header - - - -
+
+header{
+    height: 800px;
+    background-image: url(../img/wave.png);
+    background-position: top right;
+    background-size: 880px 695px;
+    background-repeat: no-repeat;
+
+    nav{
+        float: right;
+        margin-top: 70px;
+        margin-right: 10%;
+    }
+
+    a{
+        span{
+            color : #484848;
+            font-family: 'Dosis', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            margin-right: 700px;
+        }
+    }
+
+    article{
+
+        span{
+            font-weight: 700;
+            font-size: 74px;
+        }
+    }
+
+    .a_h{
+        margin: 0 18px;
+    }
+
+    .section_01{
+
+        aside{
+            
+            width: 14%;
+            float: left;
+            margin-top: 220px;
+
+            img{
+                width: 6px;
+                height: 9px;
+                display: block;
+            }
+        }
+
+        article{
+            width: 36%;
+            float: left;
+            margin-top: 140px;
+
+            img{
+                height: 40px;
+                width: 27px;
+                float: right;
+                margin-top: 150px;
+            }
+        }
+
+        img{
+            width: 600px;
+            height: 620px;
+            margin-top: 40px;
+        }
+}
+
+}
+
+.section_02{
+
+    height: 650px;
+
+    img{
+        width: 40%;
+        margin-left: 40px;
+    }
+
+    article{
+        background-image: url(../img/background-we-are.png);
+        background-size: contain;
+        width: 55%;
+        height: 600px;
+        float: right;
+        margin-top: 80px;
+        
+
+        div{
+            margin-left: 150px;
+            margin-right: 15%;
+            margin-top: 50px;
+        }
+
+        p{
+            margin-right: 150px;
+        }
+    }
+}
+
+.section_03{
+
+    background-image: url(../img/background-service.png);
+    background-position: 50% 60%;;
+    background-size: 1500px 1000px;
+    background-repeat: no-repeat;
+    height: 1450px;
+    margin-top: 100px;
+
+    div{
+        height: 410px;
+        width: 360px;
+        display: block;
+        border-radius: 36px;
+        background-color: white;
+        box-shadow: 1px 1px 5px #7E76F9;
+        padding: 25px;
+
+        img{
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 15px;
+        }
+    }
+
+    .div_haut{
+        float: left;
+    }
+
+    .div_bas{
+        float: left;
+        margin-top: 100px;
+    }
+
+    h3, h2, div{
+        margin-left: 160px;
+    }
+}
+
+.section_04{
+    height: 818px;
+    background-color: #ecebfe;
+    text-align: center;
+    padding: 80px;
+
+    div{
+        height: 460px;
+        width: 370px;
+        border-radius: 26px;
+        background-color: white;
+        float: left;
+        margin: 20px 60px;
+        padding: 40px;
+    }
+
+    .prix{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        color: #1000FF;
+        margin-top: 50px;
+    }
+}
+
+.section_05{
+    height: 320px;
+    text-align: center;
+
+    h2{
+        margin-top: 140px;
+    }
+
+    h6{
+        span{
+            font-size: 32px;
+            font-weight: 600;
+        }
+    }
+
+    input{
+        width: 430px;
+        background-color: #F6F7FB;
+        color: #999999;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+    }
+}
+
+footer{
+
+    height: 675px;
+    background-image: url(../img/footer.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding: 80px;
+
+    div{
+        width: 20%;
+        float: left;
+        margin: 0 30px;
+        margin-top: 280px;
+    }
+
+    .logo{
+        img{
+            margin: 20px;
+        }
+    }
+
+    .F_H1{
+        font-size: 50px;
+        font-weight: 800;
+        font-family: 'Dosis', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .F_H2{
+        font-size: 31px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 10px;
+    }
+
+    .link {
+
+        text-align: initial;
+        padding: 0 90px;
+
+        a{
+            display: flex;
+            color: white;
+            margin-bottom: 20px;
+        } 
+    }
+
+    .hours{
+
+        text-align: initial;
+
+        p{
+            margin-bottom: 20px;
+        }
+    }
+
+    .contact{
+
+        text-align: initial;
+
+        img{
+            float: left;
+            margin-right: 20px;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+    }
+    
+
+    p{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+
+    }    
+    
+    .F_titre{
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 30px;
+    }
+    
+}

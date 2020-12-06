@@ -1,0 +1,142 @@
+//Application des variables
+
+header{
+
+    img{
+        margin: 25px 0px 00px 120px;
+    }
+
+    a{
+        color: $a_col;
+        font-family: $a_typo;
+        font-size: $a_size;
+        text-decoration: none;
+    }
+}
+
+//Balise pour titre et texte
+
+h1{
+    font-family: $h1_typo;
+    font-weight: 400;
+    font-size: $h1_size;
+    color: $h1_col;
+}
+
+h2{
+    font-family: $h2_typo;
+    font-weight: 400;
+    font-size: $h2_size;
+    color: $h2_col;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: $h3_typo;
+    font-weight: 600;
+    font-size: $h3_size;
+    color: $h3_col;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-family: $h4_typo;
+    font-weight: 600;
+    font-size: $h4_size;
+    color: $h4_col;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-family: $h5_typo;
+    font-weight: normal;
+    font-size: $h5_size;
+    color: $h5_col;
+    margin-bottom: 40px;
+}
+
+h6{
+    font-family: $h6_typo;
+    font-weight: normal;
+    font-size: $h6_size;
+    color: $h6_col;
+    margin-bottom: 40px;
+}
+
+p{
+    font-family: $p_typo;
+    font-weight: 300;
+    font-size: $p_size;
+    color: $p_col;
+}
+
+//Balise <a> tout au long de la page
+
+.blueb{
+    background: $gradient;
+    color: $b_col;
+    display: block;
+    text-align: center;
+    width: 215px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    line-height: 50px;
+    margin-top: 40px;
+}
+
+.blueb02{
+    background: $gradient;
+    color: $b_col;
+    float: right;
+    height: 29px;
+    width: 93px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.blueb03{
+    width: 170px;
+    height: 50px;
+    display: block;
+    background: $b_col;
+    border: $b03_bord solid 1px;
+    color: $b03_col;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 26px;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-top: 70px;
+}
+
+.blueb04{
+    background: $gradient;
+    color: $b_col;
+    display: block;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    text-decoration: none;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+//Bouton
+
+button{
+    background: $gradient;
+    color: $b_col;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    margin-left: 20px;
+}
